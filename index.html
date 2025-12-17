@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RemajaSehat - Portal Kesehatan Remaja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="login-page">
+        <h2 style="color: #4db6ac;">Masuk RemajaSehat</h2>
+        <p>Silakan login untuk akses informasi kesehatan</p>
+        
+        <div class="input-group">
+            <label>Username</label>
+            <input type="text" id="username" placeholder="Masukkan Username">
+        </div>
+        
+        <div class="input-group">
+            <label>Kata Sandi</label>
+            <input type="password" id="password" placeholder="Masukkan Sandi">
+        </div>
+        
+        <button onclick="prosesLogin()">Login Sekarang</button>
+        <p id="pesan-error" style="color: red; font-size: 0.9rem; margin-top: 10px; display: none;">Akses Ditolak!</p>
+    </div>
+
+    <div id="content-page">
+        <header>
+            <h1>🌿 Remaja Sehat Indonesia</h1>
+            <p>Sehat mental, bugar fisik, bahagia selalu!</p>
+        </header>
+
+        <nav>
+            <a href="#olahraga">Tips Olahraga</a>
+            <a href="#mental">Kesehatan Mental</a>
+            <a href="#nutrisi">Pola Makan Sehat</a>
+        </nav>
+
+        <div class="container">
+            <div class="card" id="olahraga">
+                <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Olahraga">
+                <div class="card-info">
+                    <h3>Tips Olahraga</h3>
+                    <p>Lakukan aktivitas fisik minimal 30 menit sehari untuk menjaga stamina dan membakar kalori secara alami.</p>
+                </div>
+            </div>
+
+            <div class="card" id="mental">
+                <img src="https://images.unsplash.com/photo-1528319725582-ddc096101511?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mental Health">
+                <div class="card-info">
+                    <h3>Kesehatan Mental</h3>
+                    <p>Jangan ragu untuk bercerita. Kelola stres dengan meditasi, tidur cukup, dan kurangi waktu layar (gadget).</p>
+                </div>
+            </div>
+
+            <div class="card" id="nutrisi">
+                <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Nutrisi">
+                <div class="card-info">
+                    <h3>Pola Makan Sehat</h3>
+                    <p>Perbanyak sayur dan buah. Kurangi minuman berpemanis buatan dan pastikan minum air putih 2 liter sehari.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Butuh bantuan atau konsultasi lebih lanjut?</p>
+            <p>Hubungi kami di: <a href="https://wa.me/6285655703937" class="whatsapp-btn">085655703937</a></p>
+            <p>&copy; 2024 RemajaSehat ID</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
+      
